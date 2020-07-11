@@ -3,6 +3,9 @@
 [node name="Control" type="Control"]
 anchor_right = 1.0
 anchor_bottom = 1.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="Label" type="Label" parent="."]
 anchor_right = 1.0
@@ -13,3 +16,12 @@ text = "Hello, World!
 "
 align = 1
 valign = 1
+
+[node name="TextEdit" type="TextEdit" parent="."]
+margin_left = 34.0
+margin_top = 20.0
+margin_right = 249.0
+margin_bottom = 261.0
+__meta__ = {
+"_edit_use_anchors_": false
+}
